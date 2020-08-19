@@ -109,3 +109,6 @@ app.route("/logout")
 app.listen(3000, () => {
     console.log("Server started on port 3000.")
 });
+
+//Passport allows website to remember when a user is already logged in, cookies are remembered, session is not interrupted 
+//so users dont have to keep logging in. It's all saved in cookie.
